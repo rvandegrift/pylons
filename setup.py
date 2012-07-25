@@ -156,5 +156,8 @@ with BitBucket hosting the main repository here:
 
     [paste.filter_app_factory]
     debugger = pylons.middleware:debugger_filter_app_factory
+
+    [nose.plugins]
+    pylons = pylons.test:PylonsPlugin
     """,
 )
